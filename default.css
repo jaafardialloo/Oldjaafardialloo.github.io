@@ -32,13 +32,13 @@ body *{
 
 h1, h2, h3, h4, h5, h6, strong{
 	color: var(--mainText);
-	font-family: 'Russo One', sans-serif;
+	font-family: "Nunito", sans-serif;
 	font-weight: 500;
 }
 
 p, li, span, label, input, textarea{
 	color: var(--secondaryText);
-	font-family: 'Roboto Mono', monospace;
+	font-family:"Nunito", monospace;
 }
 
 a{
@@ -47,7 +47,8 @@ a{
 }
 
 ul{
-	list-style: none;
+	/*list-style: none;*/
+        list-style-image:url('images/');
 }
 
 h1 { font-size: 56px;}
@@ -62,12 +63,14 @@ h6 { font-size: 16px;}
 	background-color: var(--mainColor);
 	border-bottom:1px solid var(--borderColor);
 	overflow:auto;
+        margin:auto 40px;
 }
 
 .s2{
 	background-color: var(--secondaryColor);
 	border-bottom:1px solid var(--borderColor);
 	overflow:auto;
+        margin:auto 10px;
 }
 
 
@@ -225,7 +228,7 @@ h6 { font-size: 16px;}
 
 #settings-note{
 	font-size: 12px;
-	font-style: italic;
+	font-style: normal;
 	text-align: center;
 }
 
@@ -253,6 +256,7 @@ h6 { font-size: 16px;}
 	background-color: var(--previewBg);
 	padding:15px;
 	position: relative;
+        font: normal normal 15px/30px Nunito, serif;
 }
 
 .corner{
@@ -327,6 +331,11 @@ h6 { font-size: 16px;}
 	box-shadow: -2px 7px 21px -9px rgba(0,0,0,0.75);
 }
 
+.Deaf{
+    padding:auto 0 px;
+   
+}
+
 .thumbnail{
 	display: block;
 	width: 100%;
@@ -337,6 +346,7 @@ h6 { font-size: 16px;}
 .post-preview{
 	background-color: #fff;
 	padding:15px;
+        font: normal normal 12px/30px Nunito, serif;
 }
 
 .post-title{
@@ -346,7 +356,8 @@ h6 { font-size: 16px;}
 
 .post-intro{
 	color:#4b5156;
-	font-size: 14px;
+	/*font-size: 14px;*/
+        font: normal normal 12px/30px Nunito, serif;
 }
 
 
@@ -393,6 +404,10 @@ h6 { font-size: 16px;}
 	border:none;
 }
 
+.about-me{
+      /*font-family: "Nunito";*/
+       font: normal normal 15px/30px Nunito, serif;
+}
 
 @media screen and (max-width: 1200px){
 	.main-container{
